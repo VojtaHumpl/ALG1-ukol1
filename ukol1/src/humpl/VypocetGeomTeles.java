@@ -39,7 +39,7 @@ public class VypocetGeomTeles {
         
         
         float cuboidArea = 2*(a*b + b*c + a*c);
-        cubeDimension = (float)Math.sqrt(cuboidArea / 6);
+        cubeDimension = (float)Math.sqrt(cuboidArea / 6.0);
         sphereRadius = (float)Math.sqrt(cuboidArea / (4 * Math.PI));
         tetrahedronDimension = (float)Math.sqrt(cuboidArea / Math.sqrt(3));
         
